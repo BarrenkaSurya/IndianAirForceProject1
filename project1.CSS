@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #43302E; 
+}
+/* #43302E  */
+.name{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .box h1,p{
+    display: flex;
+    justify-content: space-around;
+  
+}  */
+#about{
+    background-color: bisque;
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 150px 150px;
+    gap: 20px;
+    border: 3px solid rgb(247, 245, 240);
+    border-radius: 35px;
+    background-color: white;
+    box-shadow:2px 2px 20px 9px rgb(19, 204, 241);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    transition: all .3s ease-in;
+}
+.h1tag{
+    font-size: 28px;
+    text-shadow: 1px 1px 1.5px rgb(158, 220, 24) ;
+}
+.fonth1{
+    font-size: 40px;
+    text-shadow: 2px 2px 2.9px orangered;
+}
+
+/*.box{ 
+    border: 3px solid rgb(21, 21, 21);
+    padding: 30px;
+    margin: 100px;
+    height: 700px;
+    width: 1000px;
+    border-radius: 35px;
+    box-shadow: 7px 7px 50px 20px  rgba(91, 85, 91, 0.939);
+    background-color: #e0ecf0;
+} */
+.about img{
+    height: 510px;
+    width: 400px;
+    border-radius: 50px;
+} 
+.logo{
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp3499056.jpg');
+    background-size: 100% 100%;
+    color: black;  
+    font-size: 23px;
+    /* border-radius: 150px; */
+}
+
+.logo nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.l{
+    height: 70px;
+    border-radius: 10px;
+    /* border: 3px solid black; */
+}
+
+.text h1{
+    font-size: 80px;
+    color: white;
+    text-shadow: 2.8px 2.8px 2.8px orangered;
+}
+h3{
+    text-shadow: 1px 1px 2px orangered;
+}
+.text h1,h3{
+    display: flex;
+    justify-content: end;
+}
+
+.logo nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.logo nav ul li{
+    list-style-type: none;
+    text-shadow: 2px 2px 3px rgb(47, 203, 47);
+    display: flex;
+    text-size-adjust: 30px;
+    color: white;
+       
+}
+.section-3{
+    background: linear-gradient(to right, #041304, #0b3317);
+}
+.section-3 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: whitesmoke;
+    text-shadow: #f25107 2px 2px 2px ;
+    text-decoration-line: underline;
+} 
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 30px;
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+
+}
+.card:hover{
+    box-shadow: 2px 4px 20px white;
+}
+
+
+#card-1{
+    background-image: url('https://media.istockphoto.com/id/600389628/photo/the-fighter-planes.jpg?s=612x612&w=0&k=20&c=GtL4U6avCI7LvMxnAq_BRE7o2UfYdVGFqJVPgG9umjk=');
+    background-size: 100% 100%;
+}
+#card-2{
+    background-image: url('https://media.istockphoto.com/id/475493798/photo/cargo-airplane-landing-at-sunset.jpg?s=612x612&w=0&k=20&c=Fnfnr-Dv2e3sCFUhU2QM32sc2VqcPvp5W91n8fN0kWI=');
+    background-size: 100% 100%;
+}
+#card-3{
+    background-image: url('https://media.istockphoto.com/id/1351329787/photo/f-14-vertical-climb.jpg?s=612x612&w=0&k=20&c=5H3gU0_zekg1MdMMyJe-EAyxqSPsopPTw5YpanChrbA=');
+    background-size: 100% 100%;
+}
+
+.section-4{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    margin: 50px;
+    gap: 40px;
+    border-radius: 20px;
+
+}
+.btn{
+    height: 50px;
+    width: 270px;
+    border-radius: 30px;
+    background-color: #98b679;
+    text-decoration: none;
+}
+
+.section-4 img{
+    height: 120%;
+    border-radius: 25px;
+    border: 3px solid black;
+    top: 20px;
+    
+}
+.section img:hover{
+    transform-origin: 40px;
+}
+.section-5{
+    background-image: url('	https://indianairforce.nic.in/wp-content/uploads/2021/09/career.jpg');
+}
+
+.section-4 div h2{
+    font-size: 180px;
+}
+
+.section-4 div h4{
+    font-size: 30px;
+}
+footer{
+    background-color: #2f2f2e;
+}
+
+ 
+.section-4 .divimg img:hover{
+     transform: rotate(15deg);
+}
+.footer{
+    height: 280px;
+}
+.footer div ul{
+    display: flex;;
+    justify-content:flex-end ;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    gap: 40px;
+    padding: 20px;
+}
