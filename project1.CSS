@@ -170,7 +170,10 @@ h3{
     width: 270px;
     border-radius: 30px;
     background-color: #98b679;
-    text-decoration: none;
+    
+}
+.section-4 div .btn a{
+    list-style-type: none;
 }
 
 .section-4 img{
